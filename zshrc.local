@@ -1,8 +1,12 @@
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export RBENV_VERSION=
+# cexport PATH="$HOME/.rbenv/bin:$PATH"
+# ceval "$(rbenv init -)"
+# cexport RBENV_VERSION=
+
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
+export EDITOR=nvim
 
 set -o vi
 

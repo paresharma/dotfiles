@@ -2,3 +2,5 @@
 vim/bundle/
 lein/repl-history
 zshrc.real.local
+nvim/lazyvim.json
+nvim/lazy-lock.json

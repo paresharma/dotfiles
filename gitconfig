@@ -15,10 +15,10 @@
 [core]
   excludesfile = /Users/paresh.sharma/.gitignore
   autocrlf = input
-	editor = vim
+	editor = nvim
 [merge]
   ff = only
-	tool = vimdiff
+	tool = nvimdiff
 	conflictstyle = diff3
 [commit]
   template = ~/.gitmessage
